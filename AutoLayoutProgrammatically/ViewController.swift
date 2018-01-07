@@ -64,7 +64,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //view.addSubview(bearImageView)
         view.addSubview(descriptionTextView)
         setupLayout()
         setupBottomControls()
@@ -78,7 +77,6 @@ class ViewController: UIViewController {
         bottomControlsStackView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(bottomControlsStackView)
     
-        
         NSLayoutConstraint.activate([
             bottomControlsStackView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
             bottomControlsStackView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
