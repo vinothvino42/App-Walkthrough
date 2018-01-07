@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D12DCBF920024303003E2C3C /* SwipingControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12DCBF820024303003E2C3C /* SwipingControllerExtension.swift */; };
+		D12DCBFB20024408003E2C3C /* SwipingControllerUICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12DCBFA20024408003E2C3C /* SwipingControllerUICollectionView.swift */; };
 		D1AA6CDE2000C042008D1508 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA6CDD2000C042008D1508 /* AppDelegate.swift */; };
 		D1AA6CE02000C042008D1508 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA6CDF2000C042008D1508 /* ViewController.swift */; };
 		D1AA6CE32000C042008D1508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1AA6CE12000C042008D1508 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D12DCBF820024303003E2C3C /* SwipingControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingControllerExtension.swift; sourceTree = "<group>"; };
+		D12DCBFA20024408003E2C3C /* SwipingControllerUICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingControllerUICollectionView.swift; sourceTree = "<group>"; };
 		D1AA6CDA2000C042008D1508 /* AutoLayoutProgrammatically.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutProgrammatically.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1AA6CDD2000C042008D1508 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1AA6CDF2000C042008D1508 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				D1C894C92001EAE100F75E41 /* SwipingController.swift */,
 				D1C894CB2001F06900F75E41 /* PageCell.swift */,
 				D1C894CD2001F8C600F75E41 /* Page.swift */,
+				D12DCBF820024303003E2C3C /* SwipingControllerExtension.swift */,
+				D12DCBFA20024408003E2C3C /* SwipingControllerUICollectionView.swift */,
 			);
 			path = AutoLayoutProgrammatically;
 			sourceTree = "<group>";
@@ -145,10 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D12DCBF920024303003E2C3C /* SwipingControllerExtension.swift in Sources */,
 				D1AA6CE02000C042008D1508 /* ViewController.swift in Sources */,
 				D1AA6CDE2000C042008D1508 /* AppDelegate.swift in Sources */,
 				D1C894CC2001F06900F75E41 /* PageCell.swift in Sources */,
 				D1C894CA2001EAE100F75E41 /* SwipingController.swift in Sources */,
+				D12DCBFB20024408003E2C3C /* SwipingControllerUICollectionView.swift in Sources */,
 				D1C894CE2001F8C600F75E41 /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
